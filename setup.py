@@ -12,10 +12,10 @@ def read(file_name):
 
 setup(
     name='recmetrics',
-    url='https://github.com/statisticianinstilettos/recommender_metrics',
+    url='https://github.com/Smerkme/recmetrics',
     author='Claire Longo',
-    author_email='longoclaire@gmail.com',
-    packages=['recmetrics'],
+    author_email='den762000@mail.ru',
+    packages=['recmetrics_new'],
     install_requires=['funcsigs',
         'numpy',
         'pandas',
@@ -25,7 +25,7 @@ setup(
         'surprise']
     ,
     license='MIT',
-    version='0.0.12',
+    version='0.0.13',
     description='Evaluation metrics for recommender systems',
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
